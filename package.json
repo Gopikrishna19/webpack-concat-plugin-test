@@ -1,0 +1,19 @@
+{
+  "name": "concat-check",
+  "private": true,
+  "description": "Testing webpack concat plugin v3",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf public && webpack"
+  },
+  "author": "Gopikrishna Sathyamurthy",
+  "license": "MIT",
+  "dependencies": {
+    "globby": "9.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "rimraf": "2.6.3",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.0",
+    "webpack-concat-plugin": "3.0.0"
+  }
+}
